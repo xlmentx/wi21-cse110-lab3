@@ -93,14 +93,16 @@
                         </span>
                     </div>
                 
-                <br><p><b>Share Your Info:</b></p>
-                <form>
-                    <label for="fname"> First name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="lname"> Last name:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-                    <label for="food"> Choose a food:</label>
-                    <select name="food" id="food">
+                
+                <br><form>
+                    <fieldset>
+                        <legend>Share Your Info::</legend>
+                        <label for="fname"> First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname"> Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="food"> Choose a food:</label>
+                        <select name="food" id="food">
                         <optgroup label="Mexican">
                             <option value="tacos">tacos</option>
                             <option value="burritos">burritos</option>
@@ -110,7 +112,12 @@
                             <option value="ramen">ramen</option>
                         </optgroup>
                         </select><br><br>
-                    <input type="submit" value="Submit">
+                        <label for="number"> number:</label>
+                        <textarea id="number" name="number" rows="1" cols="13">
+                        </textarea>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                        </fieldset>
                     </form>
             
             <br><h3><em>UCSD Campus</em></h3>
