@@ -29,10 +29,12 @@
                     <p><b>Song of Storms</b>
                         <audio controls><source src="Song%20Of%20Storms%20Dubstep%20Remix.mp3" type="audio/mpeg"></audio>
                         <b>Hand Spring</b>
-                        <video width="240" height="135" controls><source src="handSpring.mp4" type="video/mp4"></video>
+                        <video width="240" height="135" controls>
+                            <source src="handSpring.mp4" type="video/mp4"></video>
+                        
                         </p>
                     </section>
-            <h2>Main Header2</h2>
+            <h2>Thoughts</h2>
                 <div>
                     <p>Div Text<br>and br<br>test</p>
                     <span>
@@ -43,6 +45,17 @@
                             </pre>
                         </span>
                     </div>
+                <canvas id="myCanvas"></canvas>
+                    <script>
+                        var c = document.getElementById("myCanvas");
+                        var ctx = c.getContext("2d");
+                        ctx.fillStyle = "#00F3FF";
+                        ctx.beginPath();
+                        ctx.moveTo(75, 50);
+                        ctx.lineTo(100, 75);
+                        ctx.lineTo(100, 25);
+                        </script>
+                
             <h3><em>UCSD Campus</em></h3>
                 <iframe id="inlineFrameExample"
                     title="Inline Frame Example"
