@@ -37,8 +37,11 @@
                 </nav>
             <hr>
             </header>
-        
-        <template>
+    
+        <aside>
+            <p><strong>Creek By Mono Hot Springs </strong></p>
+            <picture><img src="creek.jpg" alt="Creek" width="200"/></picture>      
+            
             <pre>  
                  *
                 ***
@@ -47,22 +50,21 @@
              ***   ***
             ***** *****
             </pre>
-            </template>
-        
-        <aside>
-            <p><strong>Creek By Mono Hot Springs </strong></p>
-            <picture><img src="creek.jpg" alt="Creek" width="200"/></picture>      
-            <br><br>
-            <button onclick="showContent()">Show Triforce!!!</button>
-  
+                   
+            <button onclick="showContent()">Show hidden content</button>
+
+            <template>
+                <h2>Flower</h2>
+                </template>
+
             <script>
                 function showContent() {
-                    var temp = document.getElementsByTagName("template")[0];
-                    var clon = temp.content.cloneNode(true);
-                    document.body.appendChild(clon);
-                    }
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+                }
                 </script>
-         
+            
             <canvas id="myCanvas"></canvas>
                 <script>
                     var c = document.getElementById("myCanvas");
