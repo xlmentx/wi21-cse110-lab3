@@ -1,10 +1,12 @@
-/*aside*/
-aside {
-  width: 300px;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  background-color: lightgray;}
+/*HEADER*/
+header {
+  position: absolute;
+  min-width: 100%;
+  background-color: rgb(110,110,153);}
+
+/*NAVIGATION*/
+nav {
+  position: relative;}
 
 /*LINKS*/
 a:hover {
@@ -13,6 +15,14 @@ a:hover {
 a:active {
   color: tiel;
 }
+
+/*aside*/
+aside {
+  width: 300px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: lightgray;}
 
 /*block display*/
 span {
@@ -29,12 +39,6 @@ p{
   text-align: center
   text-decoration: overline
   margin: 2em 3em 2em 3em;}
-
-/*HEADER*/
-header {
-  position: fixed;
-  min-width: 100%;
-  background-color: rgb(110,110,153);}
 
 /*Border*/
 p.solid{
