@@ -8,7 +8,8 @@ header {
 
 /*NAVIGATION*/
 nav {
-  position: relative; 
+  position: relative;
+  left: 50%;
   text-align: center;}
 
 /*LINKS*/
