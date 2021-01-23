@@ -8,9 +8,9 @@ header {
 
 /*NAVIGATION*/
 nav {
-  position: relative;
-  left: 50%;
-  text-align: center;}
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 /*LINKS*/
 a:hover {
@@ -21,7 +21,7 @@ a:active {
 /*BODY*/
 body {
   position: absolute;
-  Top: 200px;
+  Top: 300px;
   min-width: 100%;
   font-family: 'Poppins', sans-serif;}
 
