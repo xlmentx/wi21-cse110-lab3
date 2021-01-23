@@ -8,19 +8,18 @@ header {
 
 /*NAVIGATION*/
 nav {
-  position: relative;}
+  position: relative; 
+  text-align: center;}
 
 /*LINKS*/
 a:hover {
-  color: lightBlue;
-}
+  color: lightBlue;}
 a:active {
-  color: tiel;
-}
+  color: tiel;}
 
 /*BODY*/
 body {
-  margin-top: 100px;
+  Top: 100px;
   font-family: 'Poppins', sans-serif;}
 
 /*aside*/
