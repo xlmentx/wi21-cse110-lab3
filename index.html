@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lab_3</title>
+        <title>Lab_2</title>
         <meta charset="UTF-8">
         <style>
+            aside {
+                width: 30%;
+                padding-left: 15px;
+                margin-left: 15px;
+                float: right;
+                background-color: lightgray;
+                }
             table, th, td {
                 border: 1px solid black;
                 }
             </style>    
         </head>
-    
-    <header>
+          
+    <body>    
+        <header>
             <figure>
                 <img src="Me.jpg" alt="drawing" width="200"/>
                 <figcaption><b>Created By: Ari Cortes</b></figcaption>
@@ -28,19 +36,9 @@
             <hr>
             </header>
     
-    <body>    
         <aside>
             <p><strong>Creek By Mono Hot Springs </strong></p>
             <picture><img src="creek.jpg" alt="Creek" width="200"/></picture>      
-            
-            <p class="grid-container">
-                <p class="item1">1</p>
-                <p class="item2">2</p>
-                <p class="item3">3</p>  
-                <p class="item4">4</p>
-                <p class="item5">5</p>
-                <p class="item6">6</p>
-                </p>
             
             <pre>  
                  *
@@ -85,28 +83,27 @@
             <details>
                 <summary>Hello?</summary>
                     <p>   Hi! :D</p>
-                    <button style="display: inline" type="button" onclick="alert('Thanks!')">Click Me!</button>
+                    <button type="button" onclick="alert('Thanks!')">Click Me!</button>
                 </details>
             
             </aside>
              
         <main>
             <h1>Media</h1>
-                 <section class="flex-container">
-                     <section class="flex-item-left">
-                         <b>Song of Storms</b>
-                         <audio controls><source src="Song%20Of%20Storms%20Dubstep%20Remix.mp3" type="audio/mpeg"></audio>
-                         </section>
-                     <section class="flex-item-right">
-                         <b>Hand Spring</b>
-                         <video width="240" height="135" controls>
-                         <source src="handSpring.mp4" type="video/mp4"></video>
-                         </section>   
-                     </section>    
-           
+                <section>
+                    <p><b>Song of Storms</b>
+                        <audio controls><source src="Song%20Of%20Storms%20Dubstep%20Remix.mp3" type="audio/mpeg"></audio>
+                        <b>Hand Spring</b>
+                        <video width="240" height="135" controls>
+                            <source src="handSpring.mp4" type="video/mp4"></video>
+                        
+                        </p>
+                    </section>
             <br><h2>Thoughts</h2>     
                 <div>    
-                    <i><span>Cow moo</span><span>Sheep baa</span><span>Dog bark</span></i>
+                    <span>
+                        <i>Cow<br>Sheep<br>Dog</i>
+                        </span>
                     <ul>
                         <li>Coffee</li>
                         <li>Boba</li>
@@ -118,7 +115,8 @@
                         <li>Burger</li>
                         </ol>
                     </div>
-               
+                
+                
                 <br><form>
                     <fieldset>
                         <legend>Share Your Info::</legend>
