@@ -1,49 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <figure>
-            <img src="Me.jpg" alt="drawing" width="200"/>
-            <figcaption><b>Created By: Ari Cortes</b></figcaption>
-            </figure>
-        
-        <title>Lab_2!</title>
-            
-        <meta name="description" content="Ari's Lab2">
-        
-        <link rel="stylesheet" href="dummy.css">
-        
+        <title>Lab_3!</title>
+        <meta charset="UTF-8">
         <style>
-            aside {
-                width: 30%;
-                padding-left: 15px;
-                margin-left: 15px;
-                float: right;
-                background-color: lightgray;
-                }
             table, th, td {
                 border: 1px solid black;
                 }
-            </style>
-        <hr>
+            </style>    
         </head>
-  
-    <body>
-        <button onclick="showContent()">Show another</button>
-
-<template>
-  <h2>Flower</h2>
-  <img src="creek.jpg" alt="Creek" width="200"/>
-</template>
-
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
+    
+    <header>
+            <figure>
+                <img src="Me.jpg" alt="drawing" width="200"/>
+                <figcaption><b>Created By: Ari Cortes</b></figcaption>
+                </figure>
         
-        <header>
+            <link rel="stylesheet" href="dummy.css">
+            <hr>
+        
             <nav>
                 <a href="/html/">Home</a> |
                 <a href="/css/">Top</a> |
@@ -53,9 +28,19 @@ function showContent() {
             <hr>
             </header>
     
+    <body>    
         <aside>
             <p><strong>Creek By Mono Hot Springs </strong></p>
             <picture><img src="creek.jpg" alt="Creek" width="200"/></picture>      
+            
+            <p class="grid-container">
+                <p class="item1">1</p>
+                <p class="item2">2</p>
+                <p class="item3">3</p>  
+                <p class="item4">4</p>
+                <p class="item5">5</p>
+                <p class="item6">6</p>
+                </p>
             
             <pre>  
                  *
@@ -65,20 +50,6 @@ function showContent() {
              ***   ***
             ***** *****
             </pre>
-                   
-            <button onclick="showContent()">Show hidden content</button>
-
-            <template>
-                <h2>Flower</h2>
-                </template>
-
-            <script>
-                function showContent() {
-                var temp = document.getElementsByTagName("template")[0];
-                var clon = temp.content.cloneNode(true);
-                document.body.appendChild(clon);
-                }
-                </script>
             
             <canvas id="myCanvas"></canvas>
                 <script>
@@ -114,38 +85,37 @@ function showContent() {
             <details>
                 <summary>Hello?</summary>
                     <p>   Hi! :D</p>
-                    <button type="button" onclick="alert('Thanks!')">Click Me!</button>
+                    <button style="display: inline" type="button" onclick="alert('Thanks!')">Click Me!</button>
                 </details>
             
             </aside>
              
         <main>
             <h1>Media</h1>
-                <section>
-                    <p><b>Song of Storms</b>
-                        <audio controls><source src="Song%20Of%20Storms%20Dubstep%20Remix.mp3" type="audio/mpeg"></audio>
-                        <b>Hand Spring</b>
-                        <video width="240" height="135" controls>
-                            <source src="handSpring.mp4" type="video/mp4"></video>
-                        
-                        </p>
-                    </section>
+                 <section class="flex-container">
+                     <section class="flex-item-left">
+                         <b>Song of Storms</b>
+                         <audio controls><source src="Song%20Of%20Storms%20Dubstep%20Remix.mp3" type="audio/mpeg"></audio>
+                         </section>
+                     <section class="flex-item-right">
+                         <b>Hand Spring</b>
+                         <video width="240" height="135" controls>
+                         <source src="handSpring.mp4" type="video/mp4"></video>
+                         </section>   
+                     </section>
             <br><h2>Thoughts</h2>     
                 <div>    
-                    <p><i>Cow<br>Sheep<br>Dog</i></p>
-                        
-                    <span>
-                        <ul>
-                            <li>Coffee</li>
-                            <li>Boba</li>
-                            <li>LaCroix</li>
-                            </ul>
-                        <ol>
-                            <li>Sushi</li>
-                            <li>PadThai</li>
-                            <li>Burger</li>
+                    <i><span>Cow moo</span><span>Sheep baa</span><span>Dog bark</span></i>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Boba</li>
+                        <li>LaCroix</li>
+                        </ul>
+                    <ol>
+                        <li>Sushi</li>
+                        <li>PadThai</li>
+                        <li>Burger</li>
                         </ol>
-                        </span>
                     </div>
                 
                 
@@ -205,8 +175,22 @@ function showContent() {
             </main>          
         <footer>
             <p>Edited: 1/13/2021</p>
-            <code><p>By: Ari Cortes</p></code>
+            <code>By: Ari Cortes</code>
             <hr>
-            </footer>    
+            </footer>
+        
+        <button onclick="showContent()">Hidden picture</button>
+
+        <template>
+            <img src="creek.jpg" alt="Creek" width="200"/>
+        </template>
+
+        <script>
+            function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+                }
+            </script>
         </body>
     </html>
