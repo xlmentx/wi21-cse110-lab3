@@ -13,7 +13,8 @@ span {
 
 /*Font*/
 body {
-  font-family: 'Poppins', sans-serif;}
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(102,102,153);}
 
 /*Comments*/
 p{  
@@ -23,8 +24,8 @@ p{
   margin: 2em 3em 2em 3em;}
 
 /*Backgorund*/
-body {
-  background-color: rgb(102,102,153);}
+header {
+  background-color: rgb(110,110,153);}
 
 /*Border*/
 p.solid{
