@@ -20,8 +20,8 @@ a:active {
 
 /*BODY*/
 body {
-  position: relative;
-  Top: 50p%;
+  position: absolute;
+  Top: 100px;
   font-family: 'Poppins', sans-serif;}
 
 /*aside*/
