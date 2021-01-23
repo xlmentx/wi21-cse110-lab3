@@ -6,6 +6,14 @@ aside {
   float: right;
   background-color: lightgray;}
 
+/*LINKS*/
+a:hover {
+  color: lightBlue;
+}
+a:active {
+  color: tiel;
+}
+
 /*block display*/
 span {
   min-width: 50%;
