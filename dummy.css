@@ -85,7 +85,7 @@ div{
   background-color: lightgrey;
   max-width: 30%;
   height: 10%;
-  border: 0.5in pink;
+  border: 0.5in solid pink;
   /*border: 0.5in hsl(60, 33%, 30%);*/  
   padding-top: 2em;
   padding-bottom: 2em;
