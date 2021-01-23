@@ -1,20 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="dummy.css">
-        <figure>
-            <img src="Me.jpg" alt="drawing" width="200"/>
-            <figcaption><b>Created By: Ari Cortes</b></figcaption>
-            </figure>
-        
-        <title>Lab_2!</title>
-            
-        <meta name="description" content="Ari's Lab2">
-        
-        <link rel="stylesheet" href="dummy.css">
-        
+        <title>Lab_2</title>
+        <meta charset="UTF-8">
         <style>
             aside {
                 width: 30%;
@@ -26,27 +14,19 @@
             table, th, td {
                 border: 1px solid black;
                 }
-            </style>
-        <hr>
+            </style>    
         </head>
-  
-    <body>
-        <button onclick="showContent()">Show another</button>
-
-<template>
-  <h2>Flower</h2>
-  <img src="creek.jpg" alt="Creek" width="200"/>
-</template>
-
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
-        
+          
+    <body>    
         <header>
+            <figure>
+                <img src="Me.jpg" alt="drawing" width="200"/>
+                <figcaption><b>Created By: Ari Cortes</b></figcaption>
+                </figure>
+        
+            <link rel="stylesheet" href="dummy.css">
+            <hr>
+        
             <nav>
                 <a href="/html/">Home</a> |
                 <a href="/css/">Top</a> |
@@ -68,20 +48,6 @@ function showContent() {
              ***   ***
             ***** *****
             </pre>
-                   
-            <button onclick="showContent()">Show hidden content</button>
-
-            <template>
-                <h2>Flower</h2>
-                </template>
-
-            <script>
-                function showContent() {
-                var temp = document.getElementsByTagName("template")[0];
-                var clon = temp.content.cloneNode(true);
-                document.body.appendChild(clon);
-                }
-                </script>
             
             <canvas id="myCanvas"></canvas>
                 <script>
@@ -135,20 +101,19 @@ function showContent() {
                     </section>
             <br><h2>Thoughts</h2>     
                 <div>    
-                    <p><i>Cow<br>Sheep<br>Dog</i></p>
-                        
                     <span>
-                        <ul>
-                            <li>Coffee</li>
-                            <li>Boba</li>
-                            <li>LaCroix</li>
-                            </ul>
-                        <ol>
-                            <li>Sushi</li>
-                            <li>PadThai</li>
-                            <li>Burger</li>
-                        </ol>
+                        <i>Cow<br>Sheep<br>Dog</i>
                         </span>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Boba</li>
+                        <li>LaCroix</li>
+                        </ul>
+                    <ol>
+                        <li>Sushi</li>
+                        <li>PadThai</li>
+                        <li>Burger</li>
+                        </ol>
                     </div>
                 
                 
@@ -208,8 +173,22 @@ function showContent() {
             </main>          
         <footer>
             <p>Edited: 1/13/2021</p>
-            <code><p>By: Ari Cortes</p></code>
+            <code>By: Ari Cortes</code>
             <hr>
-            </footer>    
+            </footer>
+        
+        <button onclick="showContent()">Hidden picture</button>
+
+        <template>
+            <img src="creek.jpg" alt="Creek" width="200"/>
+        </template>
+
+        <script>
+            function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+                }
+            </script>
         </body>
     </html>
