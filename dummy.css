@@ -22,6 +22,7 @@ a:active {
 body {
   position: absolute;
   Top: 100px;
+  min-width: 100%;
   font-family: 'Poppins', sans-serif;}
 
 /*aside*/
