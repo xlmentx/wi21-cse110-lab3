@@ -1,6 +1,7 @@
 /*HEADER*/
 header {
   position: absolute;
+  Top: 0px;
   min-width: 100%;
   background-color: rgb(110,110,153);}
 
@@ -16,6 +17,12 @@ a:active {
   color: tiel;
 }
 
+/*BODY*/
+body {
+  position: relative
+  top: 10%
+  font-family: 'Poppins', sans-serif;}
+
 /*aside*/
 aside {
   width: 300px;
@@ -28,10 +35,6 @@ aside {
 span {
   min-width: 50%;
   display: block;}
-
-/*BODY*/
-body {
-  font-family: 'Poppins', sans-serif;}
 
 /*Comments*/
 p{  
