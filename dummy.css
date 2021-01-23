@@ -52,10 +52,10 @@ p.solid{
 
 /*Box Model*/
 div{
-  background-color: hsl(60, 33%, 30%);
+  background-color: lightgrey;
   max-width: 30%;
   height: 10%;
-  border: 0.5in solid green;
+  border: 0.2in hsl(60, 33%, 30%);
   
   padding-top: 2em;
   padding-bottom: 2em;
