@@ -20,12 +20,12 @@ a:active {
 
 /*BODY*/
 body {
-  Top: 100px;
+  position: relative;
+  Top: 50p%;
   font-family: 'Poppins', sans-serif;}
 
 /*aside*/
 aside {
-  Top: 30%;
   width: 300px;
   padding-left: 15px;
   margin-left: 15px;
