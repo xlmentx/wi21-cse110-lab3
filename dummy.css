@@ -1,6 +1,6 @@
 /*aside*/
 aside {
-  max-width: 30%;
+  width: 300px;
   padding-left: 15px;
   margin-left: 15px;
   float: right;
@@ -11,10 +11,9 @@ span {
   min-width: 50%;
   display: block;}
 
-/*Font*/
+/*BODY*/
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: rgb(51,51,153);}
+  font-family: 'Poppins', sans-serif;}
 
 /*Comments*/
 p{  
@@ -23,8 +22,10 @@ p{
   text-decoration: overline
   margin: 2em 3em 2em 3em;}
 
-/*Backgorund*/
+/*HEADER*/
 header {
+  position: fixed;
+  min-width: 100%;
   background-color: rgb(110,110,153);}
 
 /*Border*/
@@ -37,7 +38,7 @@ p.solid{
 /*Box Model*/
 div{
   background-color: hsl(60, 33%, 30%);
-  width: 10%;
+  max-width: 30%;
   height: 10%;
   border: 0.5in solid green;
   
