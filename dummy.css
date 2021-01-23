@@ -25,6 +25,7 @@ body {
 
 /*aside*/
 aside {
+  Top: 10%;
   width: 300px;
   padding-left: 15px;
   margin-left: 15px;
