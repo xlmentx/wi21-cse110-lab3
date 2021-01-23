@@ -2,6 +2,7 @@
 header {
   position: fixed;
   Top: 0px;
+  Left: 0px;
   min-width: 100%;
   background-color: rgb(110,110,153);}
 
