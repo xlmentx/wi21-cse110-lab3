@@ -7,6 +7,7 @@ Ari:
     Yesterday - 
     Questions - 
     
+    
 Ari: 
         Today's Plan - 
     Yesterday - 
