@@ -6,7 +6,7 @@ Ari:
     Today's Plan - 
     Yesterday - 
     Questions - 
-v
+ 
 Ari: 
     Today's Plan - 
     Yesterday - 
