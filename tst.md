@@ -1,15 +1,13 @@
 <b>WEEK_2-7-2021</b>  
 <hr>
 <b>Sunday</b>  
-<pre>
-Ari: 
+<pre>Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
-    
-    
-Ari: 
-        Today's Plan - 
+</pre>
+<pre>Ari:  
+    Today's Plan - 
     Yesterday - 
     Questions - 
 Ari: 
