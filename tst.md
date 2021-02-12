@@ -2,37 +2,37 @@
 <hr>
 <b>Sunday</b>  
 <pre>
-    Ari: 
+Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
       
-  Brian:
+Brian:
     Today's Plan - 
     Yesterday - 
     Questions:
   
-  Jack: 
+Jack: 
     Today's Plan - 
     Yesterday - 
     Questions - 
       
-  Jiahong: 
+Jiahong: 
     Today's Plan - 
     Yesterday - 
     Questions - 
       
-  Megan: 
+Megan: 
     Today's Plan - 
     Yesterday - 
     Questions - 
       
-  Tommy: 
+Tommy: 
     Today's Plan - 
     Yesterday - 
     Questions - 
       
-  Zongchen: 
+Zongchen: 
     Today's Plan - 
     Yesterday - 
     Questions - 
