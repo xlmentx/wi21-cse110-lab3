@@ -6,43 +6,15 @@ Ari:
     Today's Plan - 
     Yesterday - 
     Questions - 
- 
 Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
-
 Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
-      
-Brian:
-    Today's Plan - 
-    Yesterday - 
-    Questions:
-  
-Jack: 
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
-      
-Jiahong: 
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
-      
-Megan: 
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
-      
-Tommy: 
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
-      
-Zongchen: 
+Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
