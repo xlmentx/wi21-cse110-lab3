@@ -2,7 +2,7 @@
 <hr>
 <b>Sunday</b>  
 <pre>
-  Ari: 
+    Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
