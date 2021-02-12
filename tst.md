@@ -36,10 +36,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Monday<\b>  
+<b>Monday</b>  
 <pre>
   Ari: 
     Today's Plan - 
@@ -75,10 +75,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Tuesday<\b>  
+<b>Tuesday</b>  
 <pre>
   Ari: 
     Today's Plan - 
@@ -114,10 +114,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Wednesday<\b>  
+<b>Wednesday</b>  
 <pre>
   Ari: 
     Today's Plan - 
@@ -153,10 +153,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Thursday<\b>  
+<b>Thursday</b>  
 <pre>
   Ari: 
     Today's Plan - 
@@ -192,10 +192,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Friday<\b>  
+<b>Friday</b>  
 <pre>
   Ari: 
     Today's Plan - 
@@ -231,10 +231,10 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
 <hr>
-<b>Saturday<\b>
+<b>Saturday</b>
 <pre>
   Ari: 
     Today's Plan - 
@@ -270,5 +270,5 @@
     Today's Plan - 
     Yesterday - 
     Questions - 
-<\pre>
+</pre>
 
