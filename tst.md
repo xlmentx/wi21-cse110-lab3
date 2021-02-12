@@ -1,6 +1,6 @@
-<b>WEEK_2-7-2021<\b>  
+<b>WEEK_2-7-2021</b>  
 <hr>
-<b>Sunday<\b>  
+<b>Sunday</b>  
 <pre>
   Ari: 
     Today's Plan - 
