@@ -6,10 +6,12 @@ Ari:
     Today's Plan - 
     Yesterday - 
     Questions - 
+
 Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
+
 Ari: 
     Today's Plan - 
     Yesterday - 
