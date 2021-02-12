@@ -1,34 +1,51 @@
 <b>WEEK_2-7-2021</b>  
 <hr>
-<b>Sunday</b>  
-<pre>Ari: 
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
-</pre>
-<pre>Ari:  
-    Today's Plan - 
-    Yesterday - 
-    Questions - 
+<b>SUNDAY</b>  
+<pre>
 Ari: 
     Today's Plan - 
     Yesterday - 
     Questions - 
-Ari: 
+</pre><pre>
+Brian:  
+    Today's Plan - 
+    Yesterday - 
+    Questions - 
+</pre><pre>
+Jack:  
+    Today's Plan - 
+    Yesterday - 
+    Questions - 
+</pre><pre>
+Jiahong:  
+    Today's Plan - 
+    Yesterday - 
+    Questions - 
+</pre><pre>
+Megan:  
+    Today's Plan - 
+    Yesterday - 
+    Questions - 
+</pre><pre>
+Tommy:  
+    Today's Plan - 
+    Yesterday - 
+    Questions - 
+</pre><pre>
+Zongchen:  
     Today's Plan - 
     Yesterday - 
     Questions - 
 </pre>
-
 <hr>
-<b>Monday</b>  
+<b>MONDAY</b>  
 <hr>
-<b>Tuesday</b>  
+<b>TUESDAY</b>  
 <hr>
-<b>Wednesday</b>  
+<b>WEDNESDAY</b>  
 <hr>
-<b>Thursday</b>  
+<b>THURSDAY</b>  
 <hr>
-<b>Friday</b>  
+<b>FRIDAY</b>  
 <hr>
-<b>Saturday</b>
+<b>SATURDAY</b>
